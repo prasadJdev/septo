@@ -1,0 +1,164 @@
+
+::-webkit-scrollbar {
+  display: none;
+}
+body {
+  font-size: 15pt;
+}
+
+#search {
+  height: auto;
+  min-height: 56px;
+}
+
+.searchBox {
+  position: -webkit-sticky;
+  /* Safari */
+  position: sticky;
+  top: 0;
+  z-index: 22;
+}
+
+.customIcons {
+  height: auto;
+  min-height: 56px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  min-width: 56px;
+  margin-right: 8px
+}
+
+.nav-content {
+  overflow: hidden !important
+}
+
+.tab-demo {
+  margin-left: 50px !important;
+  width: calc(100% - 50px);
+}
+
+.profileImage {
+  position: absolute;
+  width: 50px;
+  height: 50px;
+  border-radius: 100%
+}
+
+
+.carousel {
+  height: 510px !important;
+}
+
+.carousel-item {
+  height: 500px !important;
+  width: 80vw !important
+}
+
+.carousel-item.active {
+  height: 500px !important;
+  width: 80vw !important;
+}
+
+.carousel-item.active img {
+  border-radius: 8px;
+  height: 500px !important;
+  width: 80vw !important;
+}
+
+/* Custom Css*/
+
+.heading {
+  position: relative;
+  padding: 5px
+}
+
+
+.arrow {
+  display: flex;
+  align-items: center;
+  justify-content: center !important;
+  font-size: 20px;
+  font-weight: 700;
+  text-align: right !important;
+  position: absolute;
+  right: 0%;
+  bottom: 0% !important;
+  height: 25px
+}
+
+.customCarousel {
+  display: flex;
+  overflow: hidden;
+  overflow-x: scroll;
+  width: 100vw;
+}
+
+/* Hide scrollbar for Chrome, Safari and Opera */
+.customCarousel::-webkit-scrollbar {
+  display: none;
+}
+
+/* Hide scrollbar for IE, Edge and Firefox */
+.customCarousel {
+  -ms-overflow-style: none;
+  /* IE and Edge */
+  scrollbar-width: none;
+  /* Firefox */
+}
+
+.customCarousel::-webkit-scrollbar {
+  display: none;
+}
+
+
+.productImg {
+  width: 200px;
+  height: 200px;
+  object-fit: cover;
+  background-size: cover;
+  border-radius: 6px;
+}
+
+.productImgs {
+  position: relative
+}
+
+.productImgs img {
+  position: absolute !important;
+}
+
+.product {
+  display: flex;
+  flex-direction: column;
+}
+
+.product_img {
+  width: 200px;
+  height: 200px;
+  margin: 20px;
+}
+
+
+/* Custom Css Ends */
+
+@media screen and (max-width: 786px) {
+  .carousel {
+    max-height: 210px !important;
+  }
+
+  .carousel-item {
+    max-height: 200px !important;
+    min-width: 90vw !important
+  }
+
+  .carousel-item.active {
+    max-height: 200px !important;
+    min-width: 90vw !important;
+  }
+
+  .carousel-item.active img {
+    max-height: 200px !important;
+    min-width: 90vw !important;
+  }
+}

@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Login || Sign Up</title>
+  <link rel="stylesheet" href="style.css" type="text/css" media="all" />
+</head>
+
+<body>
+  <div class="container">
+    <div class="forms-container">
+      <div class="signin-signup">
+        
+        <form class="sign-in-form" method="POST" accept-charset="utf-8">
+          <div id="signin_success"></div>
+          <h2>Sign In</h2>
+          
+          <div class="input-field">
+            <i class="fas fa-user"></i>
+            <input type="text" name="signIn_username" id="signIn_username" placeholder="User Name" />
+          </div>
+          
+          <div class="input-field">
+            <i class="fas fa-lock"></i>
+            <input type="password" name="signIn_password" id="signIn_password" placeholder="Password" />
+          </div>
+          
+          <input type="submit" name="signIn" id="signIn" class="bn solid" value="Sign In" />
+          
+          
+          <p class="social-text">Or Sign In With Social Platform</p>
+          <div class="social-media">
+            <a class="social-icon" href="#"><i class="fab fa-google"></i></a>
+            <a class="social-icon" href="#"><i class="fab fa-facebook-f"></i></a>
+            <a class="social-icon" href="#"><i class="fab fa-twitter"></i></a>
+          </div>
+       
+        </form>
+        
+        <!-- SignUp Form -->
+        
+        <form class="sign-up-form" action="" method="POST" accept-charset="utf-8">
+          <div id="signup_success"></div>
+          <h2>Sign Up</h2>
+          
+          <div class="input-field">
+            <i class="fas fa-user"></i>
+            <input type="text" name="signup_username" id="signUp_username" placeholder="User Name" />
+          </div>
+          
+          <div class="input-field">
+            <i class="fas fa-envelope"></i>
+            <input type="email" name="signup_email" id="signUp_email" placeholder="Email Address" />
+          </div>
+          
+          <div class="input-field">
+            <i class="fas fa-lock"></i>
+            <input type="password" name="signUp_password" id="signUp_password" placeholder="Password" />
+          </div>
+          
+          <input type="submit" name="signUp" id="signUp" class="bn solid" value="Sign Up" />
+         
+         
+          <p class="social-text">Or Sign Up With Social Platform</p>
+          <div class="social-media">
+            <a class="social-icon" href="#"><i class="fab fa-google"></i></a>
+            <a class="social-icon" href="#"><i class="fab fa-facebook-f"></i></a>
+            <a class="social-icon" href="#"><i class="fab fa-twitter"></i></a>
+          </div>
+        
+        </form>
+        
+        
+      </div>
+    </div>
+    <!-- Panel'S -->
+    <div class="panels-container">
+      <div class="panel left-panel">
+        <div class="content">
+          <h3>New Here?</h3>
+          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla ornare consectetur neque nec vehicula. Sed eu quam quis erat finibus commodo nec at felis.</p>
+          <button class="bn transparent" id="signUp-btn" type="submit">Sign Up</button>
+        </div>
+        <img class="image" src="SignIn.png" alt="" />
+      </div>
+      <div class="panel right-panel">
+        <div class="content">
+          <h3>One of Us?</h3>
+          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla ornare consectetur neque nec vehicula. Sed eu quam quis erat finibus commodo nec at felis.</p>
+          <button class="bn transparent" id="signIn-btn" type="submit">Sign In</button>
+        </div>
+        <img class="image" src="SignUp.png" alt="" />
+      </div>
+    </div>
+  </div>
+  <script src="https://code.jquery.com/jquery-3.5.1.js" integrity="sha256-QWo7LDvxbWT2tbbQ97B53yJnYU3WhH/C8ycbRAkjPDc=" crossorigin="anonymous"></script>
+  <script src="https://kit.fontawesome.com/ec2ebb3023.js" crossorigin="anonymous"></script>
+  <script src="main.js" type="text/javascript" charset="utf-8"></script>
+</body>
+
+</html>

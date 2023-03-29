@@ -1,0 +1,607 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <!-- Required meta tags -->
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <!-- Bootstrap CSS -->
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+  <script src="https://kit.fontawesome.com/ec2ebb3023.js" crossorigin="anonymous"></script>
+  <!-- Custom Styles -->
+  <link rel="stylesheet" href="style.css">
+  <title>Hello, world!</title>
+</head>
+
+<body>
+  <!-- Header -->
+  <div class="searchBox">
+    <button data-modal-target="#modal" class="hamburger">
+      <i class="fas fa-bars"></i>
+    </button>
+    <div data-modal-target="#modal2" class="searchBx">
+      <label for="search">
+        <div class="searchLogo_display">
+          <img class="img-fluid searchLogo" src="Images/images (1).png" alt="" />
+        </div>
+      </label>
+      <p name="search" id="search" class="text-dark p-0  m-0">Search for Products...</p>
+    </div>
+    <div class="searchIcon">
+      <i data-modal-target="#modal2" class="fas fa-search"></i>
+ 
+ 
+     <svg width="30px"  data-modal-target="#modal_scan" height="30px" viewBox="0 0 16 16" class="bi mx-1 md-mx-2 bi-upc-scan" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+       <path fill-rule="evenodd" d="M1.5 1a.5.5 0 0 0-.5.5v3a.5.5 0 0 1-1 0v-3A1.5 1.5 0 0 1 1.5 0h3a.5.5 0 0 1 0 1h-3zM11 .5a.5.5 0 0 1 .5-.5h3A1.5 1.5 0 0 1 16 1.5v3a.5.5 0 0 1-1 0v-3a.5.5 0 0 0-.5-.5h-3a.5.5 0 0 1-.5-.5zM.5 11a.5.5 0 0 1 .5.5v3a.5.5 0 0 0 .5.5h3a.5.5 0 0 1 0 1h-3A1.5 1.5 0 0 1 0 14.5v-3a.5.5 0 0 1 .5-.5zm15 0a.5.5 0 0 1 .5.5v3a1.5 1.5 0 0 1-1.5 1.5h-3a.5.5 0 0 1 0-1h3a.5.5 0 0 0 .5-.5v-3a.5.5 0 0 1 .5-.5z" />
+       <path d="M3 4.5a.5.5 0 0 1 1 0v7a.5.5 0 0 1-1 0v-7zm2 0a.5.5 0 0 1 1 0v7a.5.5 0 0 1-1 0v-7zm2 0a.5.5 0 0 1 1 0v7a.5.5 0 0 1-1 0v-7zm2 0a.5.5 0 0 1 .5-.5h1a.5.5 0 0 1 .5.5v7a.5.5 0 0 1-.5.5h-1a.5.5 0 0 1-.5-.5v-7zm3 0a.5.5 0 0 1 1 0v7a.5.5 0 0 1-1 0v-7z" />
+     </svg>
+     
+      
+      <img class="img-fluid profileImg" src="Images/images (1).png" alt="" />
+    </div>
+  </div>
+  <div class="categoryBx">
+    <ul class="d-flex">
+      <li class="active"><span href="#" class="catLink">For You</span></li>
+      <li><span href="#" class="catLink">Apparel</span></li>
+      <li><span href="#" class="catLink">Groceries</span></li>
+      <li><span href="#" class="catLink">Electronics</span></li>
+      <li><span href="#" class="catLink">Electricals</span></li>
+      <li><span href="#" class="catLink">Furnitures</span></li>
+      <li><span href="#" class="catLink">Hand Crafts</span></li>
+      <li><span href="#" class="catLink">Sports</span></li>
+    </ul>
+  </div>
+  <!-- Carousel – Products -->
+  <div class="container-fluid  m-0 p-2">
+    <p class="heading">Recommended For You...&nbsp;&nbsp;
+      <span class="arrow text-right mr-0"><i class="fas fa-arrow-right"></i></span>
+    </p>
+    <div class="carousel">
+      <div class="product">
+        <div class="product_img">
+          <div class="productImgs">
+            <img class="img-fluid img1  productImg" src="Images/images (1).png" alt="product_main Image" />
+            <img class="img-fluid img2  productImg" src="Images/images (2).png" alt="product_main Image" />
+            <img class="img-fluid img3  productImg" src="Images/images (3).png" alt="product_main Image" />
+            <img class="img-fluid img4  productImg" src="Images/images (4).png" alt="product_main Image" />
+          </div>
+        </div>
+        <div class="productDescription">
+          <div class="productName">Product</div>
+          <div class="productDetails">
+            <div class="productRatings"><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star-half-alt"></i><i class="far fa-star"></i></div>
+            <div class="productPrice"><s>₹ &nbsp;200</s>&nbsp;&nbsp;₹120/-</div>
+          </div>
+        </div>
+      </div>
+      <div class="product">
+        <div class="product_img">
+          <div class="productImgs">
+            <img class="img-fluid img1  productImg" src="Images/images (2).png" alt="product_main Image" />
+            <img class="img-fluid img2  productImg" src="Images/images (4).png" alt="product_main Image" />
+            <img class="img-fluid img3  productImg" src="Images/images (3).png" alt="product_main Image" />
+            <img class="img-fluid img4  productImg" src="Images/images (1).png" alt="product_main Image" />
+          </div>
+        </div>
+        <div class="productDescription">
+          <div class="productName">Product</div>
+          <div class="productDetails">
+            <div class="productRatings"></div>
+            <div class="productPrice"></div>
+          </div>
+        </div>
+      </div>
+      <div class="product">
+        <div class="product_img">
+          <div class="productImgs">
+            <img class="img-fluid img1  productImg" src="Images/images (3).png" alt="product_main Image" />
+            <img class="img-fluid img2  productImg" src="Images/images (2).png" alt="product_main Image" />
+            <img class="img-fluid img3  productImg" src="Images/images (1).png" alt="product_main Image" />
+            <img class="img-fluid img4  productImg" src="Images/images (4).png" alt="product_main Image" />
+          </div>
+        </div>
+        <div class="productDescription">
+          <div class="productName">Product</div>
+          <div class="productDetails">
+            <div class="productRatings"></div>
+            <div class="productPrice"></div>
+          </div>
+        </div>
+      </div>
+      <div class="product">
+        <div class="product_img">
+          <div class="productImgs">
+            <img class="img-fluid img1  productImg" src="Images/images (4).png" alt="product_main Image" />
+            <img class="img-fluid img2  productImg" src="Images/images (3).png" alt="product_main Image" />
+            <img class="img-fluid img3  productImg" src="Images/images (1).png" alt="product_main Image" />
+            <img class="img-fluid img4  productImg" src="Images/images (2).png" alt="product_main Image" />
+          </div>
+        </div>
+        <div class="productDescription">
+          <div class="productName">Product</div>
+          <div class="productDetails">
+            <div class="productRatings"></div>
+            <div class="productPrice"></div>
+          </div>
+        </div>
+      </div>
+      <div class="product">
+        <div class="product_img">
+          <div class="productImgs">
+            <img class="img-fluid img1  productImg" src="Images/images (1).png" alt="product_main Image" />
+            <img class="img-fluid img2  productImg" src="Images/images (4).png" alt="product_main Image" />
+            <img class="img-fluid img3  productImg" src="Images/images (3).png" alt="product_main Image" />
+            <img class="img-fluid img4  productImg" src="Images/images (2).png" alt="product_main Image" />
+          </div>
+        </div>
+        <div class="productDescription">
+          <div class="productName">Product</div>
+          <div class="productDetails">
+            <div class="productRatings"></div>
+            <div class="productPrice"></div>
+          </div>
+        </div>
+      </div>
+      <div class="product">
+        <div class="product_img">
+          <div class="productImgs">
+            <img class="img-fluid img1  productImg" src="Images/images (1).png" alt="product_main Image" />
+            <img class="img-fluid img2  productImg" src="Images/images (3).png" alt="product_main Image" />
+            <img class="img-fluid img3  productImg" src="Images/images (2).png" alt="product_main Image" />
+            <img class="img-fluid img4  productImg" src="Images/images (4).png" alt="product_main Image" />
+          </div>
+        </div>
+        <div class="productDescription">
+          <div class="productName">Product</div>
+          <div class="productDetails">
+            <div class="productRatings"></div>
+            <div class="productPrice"></div>
+          </div>
+        </div>
+      </div>
+      <div class="product">
+        <div class="product_img">
+          <div class="productImgs">
+            <img class="img-fluid img1  productImg" src="Images/images (1).png" alt="product_main Image" />
+            <img class="img-fluid img2  productImg" src="Images/images (2).png" alt="product_main Image" />
+            <img class="img-fluid img3  productImg" src="Images/images (3).png" alt="product_main Image" />
+            <img class="img-fluid img4  productImg" src="Images/images (4).png" alt="product_main Image" />
+          </div>
+        </div>
+        <div class="productDescription">
+          <div class="productName">Product</div>
+          <div class="productDetails">
+            <div class="productRatings"></div>
+            <div class="productPrice"></div>
+          </div>
+        </div>
+      </div>
+      <div class="product">
+        <div class="product_img">
+          <div class="productImgs">
+            <img class="img-fluid img1  productImg" src="Images/images (1).png" alt="product_main Image" />
+            <img class="img-fluid img2  productImg" src="Images/images (2).png" alt="product_main Image" />
+            <img class="img-fluid img3  productImg" src="Images/images (3).png" alt="product_main Image" />
+            <img class="img-fluid img4  productImg" src="Images/images (4).png" alt="product_main Image" />
+          </div>
+        </div>
+        <div class="productDescription">
+          <div class="productName">Product</div>
+          <div class="productDetails">
+            <div class="productRatings"></div>
+            <div class="productPrice"></div>
+          </div>
+        </div>
+      </div>
+      <div class="product">
+        <div class="product_img">
+          <div class="productImgs">
+            <img class="img-fluid img1  productImg" src="Images/images (1).png" alt="product_main Image" />
+            <img class="img-fluid img2  productImg" src="Images/images (2).png" alt="product_main Image" />
+            <img class="img-fluid img3  productImg" src="Images/images (3).png" alt="product_main Image" />
+            <img class="img-fluid img4  productImg" src="Images/images (4).png" alt="product_main Image" />
+          </div>
+        </div>
+        <div class="productDescription">
+          <div class="productName">Product</div>
+          <div class="productDetails">
+            <div class="productRatings"></div>
+            <div class="productPrice"></div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <section class="advertisement">
+    <div class="container-fluid">
+      <div class="advtImg">
+        <img src="Images/images (3).png" alt="" class="img-fluid addImg" />
+        <img src="Images/images (1).png" alt="" class="img-fluid addImg" />
+        <img src="Images/images (4).png" alt="" class="img-fluid addImg" />
+        <img src="Images/images (2).png" alt="" class="img-fluid addImg" />
+      </div>
+    </div>
+  </section>
+  <!-- Carousel – Products -->
+  <div class="container-fluid car m-0 p-2">
+    <p class="heading">Top Sales Today...&nbsp;&nbsp;
+      <span class="arrow text-right mr-0"><i class="fas fa-arrow-right"></i></span>
+    </p>
+    <div class="carousel">
+      <div class="product">
+        <div class="product_img">
+          <div class="productImgs">
+            <img class="img-fluid img1  productImg2" src="Images/images (1).png" alt="product_main Image" />
+            <img class="img-fluid img2  productImg2" src="Images/images (2).png" alt="product_main Image" />
+            <img class="img-fluid img3  productImg2" src="Images/images (3).png" alt="product_main Image" />
+            <img class="img-fluid img4  productImg2" src="Images/images (4).png" alt="product_main Image" />
+          </div>
+        </div>
+        <div class="productDescription">
+          <div class="productName">Product</div>
+          <div class="productDetails">
+            <div class="productRatings"><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star-half-alt"></i><i class="far fa-star"></i></div>
+            <div class="productPrice"><s>₹ &nbsp;200</s>&nbsp;&nbsp;₹120/-</div>
+          </div>
+        </div>
+      </div>
+      <div class="product">
+        <div class="product_img">
+          <div class="productImgs">
+            <img class="img-fluid img1  productImg2" src="Images/images (2).png" alt="product_main Image" />
+            <img class="img-fluid img2  productImg2" src="Images/images (4).png" alt="product_main Image" />
+            <img class="img-fluid img3  productImg2" src="Images/images (3).png" alt="product_main Image" />
+            <img class="img-fluid img4  productImg2" src="Images/images (1).png" alt="product_main Image" />
+          </div>
+        </div>
+        <div class="productDescription">
+          <div class="productName">Product</div>
+          <div class="productDetails">
+            <div class="productRatings"></div>
+            <div class="productPrice"></div>
+          </div>
+        </div>
+      </div>
+      <div class="product">
+        <div class="product_img">
+          <div class="productImgs">
+            <img class="img-fluid img1  productImg2" src="Images/images (3).png" alt="product_main Image" />
+            <img class="img-fluid img2  productImg2" src="Images/images (2).png" alt="product_main Image" />
+            <img class="img-fluid img3  productImg2" src="Images/images (1).png" alt="product_main Image" />
+            <img class="img-fluid img4  productImg2" src="Images/images (4).png" alt="product_main Image" />
+          </div>
+        </div>
+        <div class="productDescription">
+          <div class="productName">Product</div>
+          <div class="productDetails">
+            <div class="productRatings"></div>
+            <div class="productPrice"></div>
+          </div>
+        </div>
+      </div>
+      <div class="product">
+        <div class="product_img">
+          <div class="productImgs">
+            <img class="img-fluid img1  productImg2" src="Images/images (4).png" alt="product_main Image" />
+            <img class="img-fluid img2  productImg2" src="Images/images (3).png" alt="product_main Image" />
+            <img class="img-fluid img3  productImg2" src="Images/images (1).png" alt="product_main Image" />
+            <img class="img-fluid img4  productImg2" src="Images/images (2).png" alt="product_main Image" />
+          </div>
+        </div>
+        <div class="productDescription">
+          <div class="productName">Product</div>
+          <div class="productDetails">
+            <div class="productRatings"></div>
+            <div class="productPrice"></div>
+          </div>
+        </div>
+      </div>
+      <div class="product">
+        <div class="product_img">
+          <div class="productImgs">
+            <img class="img-fluid img1  productImg2" src="Images/images (1).png" alt="product_main Image" />
+            <img class="img-fluid img2  productImg2" src="Images/images (4).png" alt="product_main Image" />
+            <img class="img-fluid img3  productImg2" src="Images/images (3).png" alt="product_main Image" />
+            <img class="img-fluid img4  productImg2" src="Images/images (2).png" alt="product_main Image" />
+          </div>
+        </div>
+        <div class="productDescription">
+          <div class="productName">Product</div>
+          <div class="productDetails">
+            <div class="productRatings"></div>
+            <div class="productPrice"></div>
+          </div>
+        </div>
+      </div>
+      <div class="product">
+        <div class="product_img">
+          <div class="productImgs">
+            <img class="img-fluid img1  productImg2" src="Images/images (1).png" alt="product_main Image" />
+            <img class="img-fluid img2  productImg2" src="Images/images (3).png" alt="product_main Image" />
+            <img class="img-fluid img3  productImg2" src="Images/images (2).png" alt="product_main Image" />
+            <img class="img-fluid img4  productImg2" src="Images/images (4).png" alt="product_main Image" />
+          </div>
+        </div>
+        <div class="productDescription">
+          <div class="productName">Product</div>
+          <div class="productDetails">
+            <div class="productRatings"></div>
+            <div class="productPrice"></div>
+          </div>
+        </div>
+      </div>
+      <div class="product">
+        <div class="product_img">
+          <div class="productImgs">
+            <img class="img-fluid img1  productImg2" src="Images/images (1).png" alt="product_main Image" />
+            <img class="img-fluid img2  productImg2" src="Images/images (2).png" alt="product_main Image" />
+            <img class="img-fluid img3  productImg2" src="Images/images (3).png" alt="product_main Image" />
+            <img class="img-fluid img4  productImg2" src="Images/images (4).png" alt="product_main Image" />
+          </div>
+        </div>
+        <div class="productDescription">
+          <div class="productName">Product</div>
+          <div class="productDetails">
+            <div class="productRatings"></div>
+            <div class="productPrice"></div>
+          </div>
+        </div>
+      </div>
+      <div class="product">
+        <div class="product_img">
+          <div class="productImgs">
+            <img class="img-fluid img1  productImg2" src="Images/images (1).png" alt="product_main Image" />
+            <img class="img-fluid img2  productImg2" src="Images/images (2).png" alt="product_main Image" />
+            <img class="img-fluid img3  productImg2" src="Images/images (3).png" alt="product_main Image" />
+            <img class="img-fluid img4  productImg2" src="Images/images (4).png" alt="product_main Image" />
+          </div>
+        </div>
+        <div class="productDescription">
+          <div class="productName">Product</div>
+          <div class="productDetails">
+            <div class="productRatings"></div>
+            <div class="productPrice"></div>
+          </div>
+        </div>
+      </div>
+      <div class="product">
+        <div class="product_img">
+          <div class="productImgs">
+            <img class="img-fluid img1  productImg2" src="Images/images (1).png" alt="product_main Image" />
+            <img class="img-fluid img2  productImg2" src="Images/images (2).png" alt="product_main Image" />
+            <img class="img-fluid img3  productImg2" src="Images/images (3).png" alt="product_main Image" />
+            <img class="img-fluid img4  productImg2" src="Images/images (4).png" alt="product_main Image" />
+          </div>
+        </div>
+        <div class="productDescription">
+          <div class="productName">Product</div>
+          <div class="productDetails">
+            <div class="productRatings"></div>
+            <div class="productPrice"></div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <section class="advertisement">
+    <h5 class="">Advertisement &#46;&#46;</h5>
+    <div class="container-fluid">
+      <div class="advt">
+        <div class="advtImg">
+          <img src="Images/images (3).png" alt="" class="img-fluid img1" />
+          <img src="Images/images (1).png" alt="" class="img-fluid img2" />
+          <img src="Images/images (4).png" alt="" class="img-fluid img3" />
+          <img src="Images/images (2).png" alt="" class="img-fluid img4" />
+        </div>
+      </div>
+    </div>
+  </section>
+  
+  <section class="">
+    <!-- Carousel – Products -->
+    <div class="container-fluid car m-0 p-2">
+      <p class="heading">Recommended For You...&nbsp;&nbsp;
+        <span class="arrow text-right mr-0"><i class="fas fa-arrow-right"></i></span>
+      </p>
+      <div class="carousel">
+        <div class="product">
+          <div class="product_img">
+            <div class="productImgs">
+              <video src="Triangles_01.mp4" class="productVedio" muted autoplay loop></video>
+            </div>
+          </div>
+          <div class="productDescription">
+            <div class="productName">Product</div>
+            <div class="productDetails">
+              <div class="productRatings"><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star-half-alt"></i><i class="far fa-star"></i></div>
+              <div class="productPrice"><s>₹ &nbsp;200</s>&nbsp;&nbsp;₹120/-</div>
+            </div>
+          </div>
+        </div>
+        <div class="product">
+          <div class="product_img">
+            <div class="productImgs">
+              <video src="SampleVideo_1280x720_1mb.mp4" class="productVedio" muted autoplay loop></video>
+            </div>
+          </div>
+          <div class="productDescription">
+            <div class="productName">Product</div>
+            <div class="productDetails">
+              <div class="productRatings"><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star-half-alt"></i><i class="far fa-star"></i></div>
+              <div class="productPrice"><s>₹ &nbsp;200</s>&nbsp;&nbsp;₹120/-</div>
+            </div>
+          </div>
+        </div>
+        <div class="product">
+          <div class="product_img">
+            <div class="productImgs">
+              <video src="Triangles_01.mp4" class="productVedio" muted autoplay loop></video>
+            </div>
+          </div>
+          <div class="productDescription">
+            <div class="productName">Product</div>
+            <div class="productDetails">
+              <div class="productRatings"><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star-half-alt"></i><i class="far fa-star"></i></div>
+              <div class="productPrice"><s>₹ &nbsp;200</s>&nbsp;&nbsp;₹120/-</div>
+            </div>
+          </div>
+        </div>
+        <div class="product">
+          <div class="product_img">
+            <div class="productImgs">
+              <video src="SampleVideo_1280x720_1mb.mp4" class="productVedio" muted autoplay loop></video>
+            </div>
+          </div>
+          <div class="productDescription">
+            <div class="productName">Product</div>
+            <div class="productDetails">
+              <div class="productRatings"><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star-half-alt"></i><i class="far fa-star"></i></div>
+              <div class="productPrice"><s>₹ &nbsp;200</s>&nbsp;&nbsp;₹120/-</div>
+            </div>
+          </div>
+        </div>
+        <div class="product">
+          <div class="product_img">
+            <div class="productImgs">
+              <video src="Triangles_01.mp4" class="productVedio" muted autoplay loop></video>
+            </div>
+          </div>
+          <div class="productDescription">
+            <div class="productName">Product</div>
+            <div class="productDetails">
+              <div class="productRatings"><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star-half-alt"></i><i class="far fa-star"></i></div>
+              <div class="productPrice"><s>₹ &nbsp;200</s>&nbsp;&nbsp;₹120/-</div>
+            </div>
+          </div>
+        </div>
+        <div class="product">
+          <div class="product_img">
+            <div class="productImgs">
+              <video src="SampleVideo_1280x720_1mb.mp4" class="productVedio" muted autoplay loop></video>
+            </div>
+          </div>
+          <div class="productDescription">
+            <div class="productName">Product</div>
+            <div class="productDetails">
+              <div class="productRatings"><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star-half-alt"></i><i class="far fa-star"></i></div>
+              <div class="productPrice"><s>₹ &nbsp;200</s>&nbsp;&nbsp;₹120/-</div>
+            </div>
+          </div>
+        </div>
+        <div class="product">
+          <div class="product_img">
+            <div class="productImgs">
+              <video src="Triangles_01.mp4" class="productVedio" muted autoplay loop></video>
+            </div>
+          </div>
+          <div class="productDescription">
+            <div class="productName">Product</div>
+            <div class="productDetails">
+              <div class="productRatings"><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star-half-alt"></i><i class="far fa-star"></i></div>
+              <div class="productPrice"><s>₹ &nbsp;200</s>&nbsp;&nbsp;₹120/-</div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    
+  </section>
+  <!-- Nav Bar -->
+  <section class="navBar">
+    <div class="moda" id="modal">
+      <div class="modal_header">
+        <div class="modal_title"><img class="img-fluid" src="Images/images (4).png" alt="" />
+          <hr>
+        </div>
+      </div>
+      <div class="modal_body">
+        <ul>
+          <li>Home</li>
+          <li>Shop</li>
+          <li>Cart</li>
+          <li>My Account</li>
+          <li>Sell on Septo</li>
+          <li>Contribute</li>
+        </ul>
+      </div>
+    </div>
+    <div id="overlay"></div>
+  </section>
+  
+  <section>
+    <div id="modal2" class="moda2">
+      <div class="modal2_body">
+     <button data-close-button class="close_button">
+       <svg width="1em" height="1em" viewBox="0 0 16 16" class="bi bi-arrow-left-short" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+       <path fill-rule="evenodd" d="M7.854 4.646a.5.5 0 0 1 0 .708L5.207 8l2.647 2.646a.5.5 0 0 1-.708.708l-3-3a.5.5 0 0 1 0-.708l3-3a.5.5 0 0 1 .708 0z" />
+       <path fill-rule="evenodd" d="M4.5 8a.5.5 0 0 1 .5-.5h6.5a.5.5 0 0 1 0 1H5a.5.5 0 0 1-.5-.5z" />
+       </svg>
+     </button>
+     <div class="searchInputFeild">
+       <input type="text" name="inputText" id="inputText" autofocus value="" />
+<svg width="30px" height="30px" viewBox="0 0 16 16" class="bi bi-search" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+  <path fill-rule="evenodd" d="M10.442 10.442a1 1 0 0 1 1.415 0l3.85 3.85a1 1 0 0 1-1.414 1.415l-3.85-3.85a1 1 0 0 1 0-1.415z"/>
+  <path fill-rule="evenodd" d="M6.5 12a5.5 5.5 0 1 0 0-11 5.5 5.5 0 0 0 0 11zM13 6.5a6.5 6.5 0 1 1-13 0 6.5 6.5 0 0 1 13 0z"/>
+</svg>     
+     </div> 
+     <div class="searchBx_icons" data-modal-target="#modal_scan" >
+     <svg width="30px" height="30px" viewBox="0 0 16 16" class="bi bi-upc-scan" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+       <path fill-rule="evenodd" d="M1.5 1a.5.5 0 0 0-.5.5v3a.5.5 0 0 1-1 0v-3A1.5 1.5 0 0 1 1.5 0h3a.5.5 0 0 1 0 1h-3zM11 .5a.5.5 0 0 1 .5-.5h3A1.5 1.5 0 0 1 16 1.5v3a.5.5 0 0 1-1 0v-3a.5.5 0 0 0-.5-.5h-3a.5.5 0 0 1-.5-.5zM.5 11a.5.5 0 0 1 .5.5v3a.5.5 0 0 0 .5.5h3a.5.5 0 0 1 0 1h-3A1.5 1.5 0 0 1 0 14.5v-3a.5.5 0 0 1 .5-.5zm15 0a.5.5 0 0 1 .5.5v3a1.5 1.5 0 0 1-1.5 1.5h-3a.5.5 0 0 1 0-1h3a.5.5 0 0 0 .5-.5v-3a.5.5 0 0 1 .5-.5z" />
+       <path d="M3 4.5a.5.5 0 0 1 1 0v7a.5.5 0 0 1-1 0v-7zm2 0a.5.5 0 0 1 1 0v7a.5.5 0 0 1-1 0v-7zm2 0a.5.5 0 0 1 1 0v7a.5.5 0 0 1-1 0v-7zm2 0a.5.5 0 0 1 .5-.5h1a.5.5 0 0 1 .5.5v7a.5.5 0 0 1-.5.5h-1a.5.5 0 0 1-.5-.5v-7zm3 0a.5.5 0 0 1 1 0v7a.5.5 0 0 1-1 0v-7z" />
+     </svg>
+     
+     </div>
+   </div>
+ </div>
+  </section>
+  
+  <!-- Modal Scanare -->
+  
+    <div id="modal_scan" class="modal_scan ">
+      <div class="modal_header">
+        <div class="modal_title">
+           Use Our Technologies
+        </div>
+     <button data-close-button class="scan_closeBtn btn-danger">X</button>
+      </div>
+
+      <div class="modal_scanContainer container-fluid p-0">
+      <!-- Scan Qr Code -->
+      <div class="scanBx">
+        <h6>Scan a Qr or Bar Code</h6>
+        <div class="scanVedios">
+         <video src="QrScanning.mp4" class="scanVedio" muted autoplay loop></video>         
+        </div>
+      </div>
+      <!---->
+      <!-- Scan Bar Code -->
+      
+      
+      <!---->
+      
+      <!-- ML Scan -->
+      
+      <div class="scanBx">
+        <h6>Use Our new Machine Technology</h6>
+        <div class="scanVedios">
+         <video src="Ml.mp4" class="scanVedio" muted autoplay loop></video>        
+        </div>
+      </div>
+      
+      <!----->
+      </div>
+    </div>
+ 
+  
+  
+  
+    
+  <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.5.1.js" integrity="sha256-QWo7LDvxbWT2tbbQ97B53yJnYU3WhH/C8ycbRAkjPDc=" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js" integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" crossorigin="anonymous"></script>
+    <script src="main.js"></script>
+</body>
+
+</html>

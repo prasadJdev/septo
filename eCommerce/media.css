@@ -1,0 +1,71 @@
+@media screen and (max-width: 786px) {
+  .carousel {
+    max-height: 210px !important;
+  }
+
+  .carousel-item {
+    max-height: 200px !important;
+    min-width: 90vw !important
+  }
+
+  .carousel-item.active {
+    max-height: 200px !important;
+    min-width: 90vw !important;
+  }
+
+  .carousel-item.active img {
+    max-height: 200px !important;
+    min-width: 90vw !important;
+  }
+
+  /* Custom .carousel */
+  .featuredProduct{
+    width: 100px
+  }
+  
+  .featuredProductsContainer {
+    height: 300px;
+  }
+
+  .featuredProductsAdvrt {
+    height: calc(300px - 125px);
+  }
+
+  .featuredProductsAdvrt img {
+    width: 100%;
+    height: calc(100% - 75px)
+  }
+
+  .featuredProductsCarousel {
+    margin-top: -50px
+  }
+
+  .productImgs {
+    width: 100px;
+    height: 125px
+  }
+
+  .featuredProductImg {
+    width: 100px;
+    height: 125px;
+  }
+
+  .quickSearchImage {
+    width: 80px;
+    height: 80px;
+    margin-left: 7px
+  }
+
+  .quickSearchImg {
+    width: 80px;
+    height: 80px;
+
+  }
+  .slides,.slider,
+  .sliderLi{
+    max-height: 250px
+  }
+  .advertisementImg{
+    max-height: 250px
+  }
+}

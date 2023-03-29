@@ -1,0 +1,315 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <!-- Required meta tags -->
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <!-- Bootstrap CSS -->
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+  <script src="https://kit.fontawesome.com/ec2ebb3023.js" crossorigin="anonymous"></script>
+  <!-- Custom Styles -->
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="product.css" type="text/css" media="all" />
+</head>
+
+<body>
+  <section id="navigation">
+    <div class="navigation">
+      <ul class="navi_ul p-0 accrodian" id="accrodian">
+        <li class="navi_li">
+          <div class="link">
+            <span class="icon"><i class="fas fa-tachometer-alt"></i></span>
+            <span class="title">Dashboard</span>
+          </div>
+        </li>
+        <li class="navi_li ">
+          <div class="link ">
+            <span class="icon"><i class="fab fa-product-hunt"></i></span>
+            <span class="title">Products &nbsp;<span class="chevron"><i class="fa fa-chevron-down"></i></span></span>
+          </div>
+          <ul class="submenu">
+            <li><a href="./product.html">Add New Product</a></li>
+            <li><a href="#">Products</a></li>
+            <li><a href="#">Edit Product</a></li>
+          </ul>
+        </li>
+        <li class="navi_li">
+          <div class="link">
+            <span class="icon"><i class="fas fa-users"></i></span>
+            <span class="title">Clients &nbsp;<span class="chevron"><i class="fa fa-chevron-down"></i></span></span>
+          </div>
+          <ul class="submenu">
+            <li><a href="#">Add a Client</a></li>
+            <li><a href="#">Clients</a></li>
+            <li><a href="#">Remove a Client</a></li>
+          </ul>
+        </li>
+        <li class="navi_li">
+          <div class="link ">
+            <span class="icon"> <i class="fas fa-people-carry"></i></span>
+            <span class="title">Orders &nbsp;<span class="chevron"><i class="fa fa-chevron-down"></i></span></span>
+          </div>
+          <ul class="submenu">
+            <li><a href="#">Add an Orders</a></li>
+            <li><a href="#">Recent Orders</a></li>
+            <li><a href="#">All Orders</a></li>
+          </ul>
+        </li>
+        <li class="navi_li">
+          <div class="link">
+            <span class="icon"> <i class="far fa-address-card"></i></span>
+            <span class="title">Profile</span>
+          </div>
+        </li>
+        <li class="navi_li">
+          <div class="link ">
+            <span class="icon"><i class="fas fa-sign-out-alt"></i></span>
+            <span class="title">Log Out</span>
+          </div>
+        </li>
+      </ul>
+    </div>
+    <div class="toggle"></div>
+  </section>
+  <!-- //End Of NavBar -->
+  <!-- Nav Bar Notification and Messages -->
+  <section id="">
+    <div class="navBadge">
+      <div class="navIcons">
+        <div class="notificationIcon"><i class="far fa-bell"></i><span class="badge badge-danger">0</span></div>
+        <div class="chatIncon"><i class="far fa-comments"></i><span class="badge badge-danger">5</span></div>
+        <div class="profileImage"><img class="img-fluid profileImage" src="assets/Product_img_preview.png" alt="" /></div>
+      </div>
+    </div>
+  </section>
+  <!-- //Nav Bar Notification -->
+  <section id="">
+    <div class="siteHeading p-1">
+      <h4 class="">Products List</h4>
+      <!-- Add Product Button -->
+      <a href="product.html" class="btn btn-dark text-white text-center" type="button">+ Add Product</a>
+    </div>
+  </section>
+  <section id="" class="products_tbl">
+    <!-- Tabel Container --->
+    <div class="container-fluid products_table">
+      <!-- Products Table -->
+      <!-- Main Table -->
+      <table class="table table-hover  table-striped">
+        <!-- Main Table Headings -->
+        <thead>
+          <tr>
+            <th scope="col" align="center"  class="text-center">Image</th>
+            <th scope="col" align="center"  class="text-center">Product Name</th>
+            <th scope="col" align="center"  class="text-center">Price</th>
+          </tr>
+        </thead>
+        <!-- Main Table Contents -->
+        <tbody>
+          <!-- Main Table FIRST Row -->
+          <tr>
+            <!-- Main Table First Rpw First Column -->
+            <th scope="row" colspan="1" class="mainTable_column1">
+              <div class="mainTable_imagesColumn">
+                <button class="btn btn-dark mainTable_dropDownBtn" type="button" data-toggle="collapse" data-target="#collapse1" aria-expanded="false" aria-controls="collapse1">+ </button>
+                <img class="img-fluid mainTable_img" src="assets/empty.png" alt="" />
+              </div>
+              <!-- Bootstrap Collapse Div -->
+              <div class="collapse collapsableTable" id="collapse1">
+                <div class="card card-body subTable p-1">
+                  <!-- sub Table -->
+                  <table class="table ">
+                    <tbody>
+                      <tr>
+                        <th scope="row subTableRow">Stock</th>
+                        <td colspan="2" class="text-success subTableCol" >In Stock</td>
+                      </tr>
+                      <tr>
+                        <th scope="row subTableRow">Action</th>
+                        <td class="subTableCol"><button class="btn btn-light" type="button"><i class="fas fa-pencil-alt"></i></button></td>
+                        <td class="subTableCol"><button class="btn btn-danger" type="button"><i class="far fa-trash-alt"></i></button></td>
+                      </tr>
+                    </tbody>
+                  </table>
+                  <!-- Sub Table Ends --->
+                </div><!-- Collapse Card Div Ends -->
+                
+              </div><!-- Collapsible Content Ends -->
+            </th>
+            <!-- Main Table First Row First Column Ends  -->
+            
+            <td align="center" class="mainTable_td" >Casual Shirt</td>
+            <td align="center" class="mainTable_td" >2500</td>
+          </tr>
+          <tr>
+            <!-- Main Table First Rpw First Column -->
+            <th scope="row" colspan="1" class="mainTable_column1">
+              <div class="mainTable_imagesColumn">
+                <button class="btn btn-dark mainTable_dropDownBtn" type="button" data-toggle="collapse" data-target="#collapse2" aria-expanded="false" aria-controls="collapse2">+ </button>
+                <img class="img-fluid mainTable_img" src="assets/Hamburger.png" alt="" />
+              </div>
+              <!-- Bootstrap Collapse Div -->
+              <div class="collapse collapsableTable" id="collapse2">
+                <div class="card card-body subTable p-1">
+                  <!-- sub Table -->
+                  <table class="table ">
+                    <tbody>
+                      <tr>
+                        <th scope="row subTableRow">Stock</th>
+                        <td colspan="2" class="text-warning subTableCol" >About to Empty</td>
+                      </tr>
+                      <tr>
+                        <th scope="row subTableRow">Action</th>
+                        <td class="subTableCol"><button class="btn btn-light" type="button"><i class="fas fa-pencil-alt"></i></button></td>
+                        <td class="subTableCol"><button class="btn btn-danger" type="button"><i class="far fa-trash-alt"></i></button></td>
+                      </tr>
+                    </tbody>
+                  </table>
+                  <!-- Sub Table Ends --->
+                </div><!-- Collapse Card Div Ends -->
+                
+              </div><!-- Collapsible Content Ends -->
+            </th>
+            <!-- Main Table First Row First Column Ends  -->
+            
+            <td align="center" class="mainTable_td"  >Track Pant</td>
+            <td align="center" class="mainTable_td" >500</td>
+          </tr>
+          <tr>
+            <!-- Main Table First Rpw First Column -->
+            <th scope="row" colspan="1" class="mainTable_column1">
+              <div class="mainTable_imagesColumn">
+                <button class="btn btn-dark mainTable_dropDownBtn" type="button" data-toggle="collapse" data-target="#collapse3" aria-expanded="false" aria-controls="collapse3">+ </button>
+                <img class="img-fluid mainTable_img" src="assets/empty.png" alt="" />
+              </div>
+              <!-- Bootstrap Collapse Div -->
+              <div class="collapse collapsableTable" id="collapse3">
+                <div class="card card-body subTable p-1">
+                  <!-- sub Table -->
+                  <table class="table ">
+                    <tbody>
+                      <tr>
+                        <th scope="row subTableRow">Stock</th>
+                        <td colspan="2" class="text-danger subTableCol" >Out of Stock</td>
+                      </tr>
+                      <tr>
+                        <th scope="row subTableRow">Action</th>
+                        <td class="subTableCol"><button class="btn btn-light" type="button"><i class="fas fa-pencil-alt"></i></button></td>
+                        <td class="subTableCol"><button class="btn btn-danger" type="button"><i class="far fa-trash-alt"></i></button></td>
+                      </tr>
+                    </tbody>
+                  </table>
+                  <!-- Sub Table Ends --->
+                </div><!-- Collapse Card Div Ends -->
+                
+              </div><!-- Collapsible Content Ends -->
+            </th>
+            <!-- Main Table First Row First Column Ends  -->
+            
+            <td align="center" class="mainTable_td"  > Short</td>
+            <td align="center" class="mainTable_td" >200</td>
+          </tr>
+          <tr>
+            <!-- Main Table First Rpw First Column -->
+            <th scope="row" colspan="1" class="mainTable_column1">
+              <div class="mainTable_imagesColumn">
+                <button class="btn btn-dark mainTable_dropDownBtn" type="button" data-toggle="collapse" data-target="#collapse4" aria-expanded="false" aria-controls="collapse4">+ </button>
+                <img class="img-fluid mainTable_img" src="assets/Product_img_preview.png" alt="" />
+              </div>
+              <!-- Bootstrap Collapse Div -->
+              <div class="collapse collapsableTable" id="collapse4">
+                <div class="card card-body subTable p-1">
+                  <!-- sub Table -->
+                  <table class="table ">
+                    <tbody>
+                      <tr>
+                        <th scope="row subTableRow">Stock</th>
+                        <td colspan="2" class="text-success subTableCol" >In Stock</td>
+                      </tr>
+                      <tr>
+                        <th scope="row subTableRow">Action</th>
+                        <td class="subTableCol"><button class="btn btn-light" type="button"><i class="fas fa-pencil-alt"></i></button></td>
+                        <td class="subTableCol"><button class="btn btn-danger" type="button"><i class="far fa-trash-alt"></i></button></td>
+                      </tr>
+                    </tbody>
+                  </table>
+                  <!-- Sub Table Ends --->
+                </div><!-- Collapse Card Div Ends -->
+                
+              </div><!-- Collapsible Content Ends -->
+            </th>
+            <!-- Main Table First Row First Column Ends  -->
+            
+            <td align="center" class="mainTable_td"  >Women's T - Shirts</td>
+            <td align="center" class="mainTable_td" >2000</td>
+          </tr>
+          <tr>
+            <!-- Main Table First Rpw First Column -->
+            <th scope="row" colspan="1" class="mainTable_column1">
+              <div class="mainTable_imagesColumn">
+                <button class="btn btn-dark mainTable_dropDownBtn" type="button" data-toggle="collapse" data-target="#collapse5" aria-expanded="false" aria-controls="collapse5">+ </button>
+                <img class="img-fluid mainTable_img" src="assets/Cooking.png" alt="" />
+              </div>
+              <!-- Bootstrap Collapse Div -->
+              <div class="collapse collapsableTable" id="collapse5">
+                <div class="card card-body subTable p-1">
+                  <!-- sub Table -->
+                  <table class="table ">
+                    <tbody>
+                      <tr>
+                        <th scope="row subTableRow">Stock</th>
+                        <td colspan="2" class="text-danger subTableCol" >Out of Stock</td>
+                      </tr>
+                      <tr>
+                        <th scope="row subTableRow">Action</th>
+                        <td class="subTableCol"><button class="btn btn-light" type="button"><i class="fas fa-pencil-alt"></i></button></i></td>
+                        <td class="subTableCol"><button class="btn btn-danger" type="button"><i class="far fa-trash-alt"></i></button></td>
+                      </tr>
+                    </tbody>
+                  </table>
+                  <!-- Sub Table Ends --->
+                </div><!-- Collapse Card Div Ends -->
+                
+              </div><!-- Collapsible Content Ends -->
+            </th>
+            <!-- Main Table First Row First Column Ends  -->
+            
+            <td align="center" class="mainTable_td"  >Tourses</td>
+            <td align="center" class="mainTable_td" >9900</td>
+          </tr>
+
+        </tbody>
+      </table>
+    </div>
+        <!-- Tabel Container Ends --->
+
+  </section>
+  <section id="">
+    <nav aria-label="Search results pages">
+      <ul class="pagination justify-content-center">
+        <li class="page-item">
+          <a class="page-link" href="#" aria-label="Previous">
+            <span aria-hidden="true">&laquo;</span>
+          </a>
+        </li>
+        <li class="page-item"><a class="page-link" href="#">1</a></li>
+        <li class="page-item"><a class="page-link" href="#">2</a></li>
+        <li class="page-item"><a class="page-link" href="#">3</a></li>
+        <li class="page-item">
+          <a class="page-link" href="#" aria-label="Next">
+            <span aria-hidden="true">&raquo;</span>
+          </a>
+        </li>
+      </ul>
+    </nav>
+    
+  </section>
+  <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+  <script src="https://code.jquery.com/jquery-3.5.1.js" integrity="sha256-QWo7LDvxbWT2tbbQ97B53yJnYU3WhH/C8ycbRAkjPDc=" crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js" integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" crossorigin="anonymous"></script>
+  <script src="main.js"></script>
+</body>
+
+</html>
